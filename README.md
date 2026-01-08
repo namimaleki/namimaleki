@@ -4,6 +4,7 @@
 
 ## About Me
 
+</div> 
 ### 🎓 Education
 Computer Engineering and Mathematics  
 University of British Columbia  
