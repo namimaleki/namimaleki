@@ -52,6 +52,19 @@ I'm particularly fascinated by robotics, machine learning, physics, and game the
   demonstrating professional embedded development practices directly applicable to 
   autonomous robotics systems
 
+---
+
+### 🧩 OS/161 Kernel Build (CPEN 331)
+
+- A Unix-like operating system kernel built by extending OS/161 with real synchronization, system calls, and virtual memory.
+
+- Implemented core synchronization primitives (locks built using binary semaphores, condition variables using wait channels) and used them as the foundation for safe, race-free kernel concurrency across the project
+
+- Added essential system call functionality to support real user programs, including file I/O (open/read/write/close/lseek/dup2/chdir/getcwd) and process management (fork/execv/waitpid/getpid/exit)
+
+Built a custom virtual memory system to replace DUMBVM, handling TLB faults and page-level memory management, and supporting dynamic heap growth via sbrk so user programs can allocate memory at runtime
+
+---
 
 ### ⚙️ [Simple RISC Machine (SRM) Processor](https://github.com/yourusername/SimpleRISC)
 A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
@@ -63,6 +76,55 @@ A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
 
 
 ---
+
+### 🖥️ UNIX Shell (C) — UBC (March 2025)
+A simplified **Unix-style shell** focused on process management and job control.
+
+- Built a functional shell supporting foreground/background execution using `fork`, `execvp`, and `waitpid`  
+- Implemented signal handling to support suspending, resuming, and terminating jobs reliably  
+- Designed job tracking structures and built commands like `jobs`, `fg`, `bg`, and `nuke` to manage running processes cleanly  
+
+---
+
+### 🧠 Virtual Memory System Emulator (C) — UBC (February 2025)
+A simplified **virtual memory simulator** modeling real OS memory translation and paging behavior.
+
+- Implemented two-level page tables with address translation and permission enforcement  
+- Added swapping + eviction policies to manage limited physical memory under pressure  
+- Extended the system with an accessed-bit eviction strategy that favors untouched pages for better efficiency  
+
+---
+
+### 🧱 Custom Memory Allocator (C) — UBC (January 2025)
+A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `malloc/free/realloc`.
+
+- Implemented `malloc()`, `free()`, and `realloc()` with realistic heap metadata and allocation behavior  
+- Added block coalescing and in-place reallocation to reduce fragmentation and improve performance  
+- Built a heap consistency checker + debugging utilities to detect header corruption, overlapping blocks, and alignment issues  
+
+---
+
+### 🌐 Multi-Client Server 
+A **multi-client server** designed for concurrent connections, fault tolerance, and secure communication.
+
+- Built a server that supports multiple simultaneous clients, enabling concurrent requests and responses without blocking  
+- Implemented dual-server routing / failover so clients can connect to either server and continue operating if one server goes offline  
+- Secured user data by hashing + salting passwords and encrypting all incoming/outgoing messages using AES  
+
+---
+
+
+
+### 🖼️ Image Processing  
+An image-processing mini-project where I built an `ImageTransformer` toolkit and implemented classic computer vision–style operations on pixel grids.
+
+- Implemented a suite of image transformations from scratch (mirror, negative, posterize, denoise/median filter, weathering/min filter, and block-painting/mean filter) by directly manipulating RGB channels at the pixel level  
+- Built image comparison utilities using grayscale + cosine similarity, including a “best match” ranking function to sort a list of images by similarity to a target image  
+- Implemented a green-screen pipeline: detected the largest connected region of an exact target color, computed its bounding rectangle, and overlaid/tiled a background image onto that region; supported the project with method specs and robust unit tests/code coverage  
+
+---
+
+
 
 ### 🤖 [Panorama Telemetry System](https://github.com/namimaleki/Panorama)
 An **ESP32-based telemetry platform** for real-time sensor data acquisition.
