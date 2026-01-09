@@ -55,7 +55,7 @@ I'm particularly fascinated by robotics, machine learning, physics, and game the
 
 ---
 
-### 🧩 OS/161 Kernel Build (CPEN 331)
+### 🧠 [OS/161 Kernel (CPEN 331)](https://github.com/namimaleki/OS161)
 
 - A Unix-like operating system kernel built by extending OS/161 with real synchronization, system calls, and virtual memory.
 
@@ -67,7 +67,7 @@ I'm particularly fascinated by robotics, machine learning, physics, and game the
 
 ---
 
-### ⚙️ [Simple RISC Machine](https://github.com/yourusername/SimpleRISC)
+### ⚙️ [Simple RISC Machine](https://github.com/namimaleki/Simple-RISC-Machine)
 A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
 
 - Planned and implemented a 16-bit RISC processor in Verilog, beginning with block diagrams and cycle-level timing plans to design a modular datapath (ALU, register file, shifter, multiplexers) for arithmetic and logic execution
