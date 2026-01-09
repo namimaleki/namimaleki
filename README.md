@@ -103,6 +103,16 @@ A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `
 - Built a heap consistency checker + debugging utilities to detect header corruption, overlapping blocks, and alignment issues  
 
 ---
+### 📚 Stud-Bud — UBC (Sep 2024 – Dec 2024)  
+**Project Manager**
+
+- Led a 5-person team building a productivity app to help university students plan schedules and manage tasks more effectively  
+- Designed and implemented the schedule-generation algorithm using weighted heuristics (priority, estimated effort, deadlines) to produce practical daily plans  
+- Integrated the scheduling engine with the app’s core workflow, ensuring it worked smoothly with the GUI and client–server structure  
+- Contributed to networking + UI development while managing project planning, version control, and team coordination  
+
+--- 
+
 
 ### 🌐 Multi-Client Server 
 A **multi-client server** designed for concurrent connections, fault tolerance, and secure communication.
@@ -123,6 +133,31 @@ An image-processing mini-project where I built an `ImageTransformer` toolkit and
 - Implemented a green-screen pipeline: detected the largest connected region of an exact target color, computed its bounding rectangle, and overlaid/tiled a background image onto that region; supported the project with method specs and robust unit tests/code coverage  
 
 ---
+
+### 🚢 Submarine Design — UBC (Jan 2024 – Apr 2024)  
+**Team Captain**
+
+- Led a 6-person team to design a fully modeled submarine in SolidWorks, earning **2nd place out of 70+ teams**  
+- Ran weekly meetings with clear agendas and timelines to keep progress consistent and responsibilities clear  
+- Scoped and delegated work based on effort estimates, while also contributing to floor plans, CAD modeling, and technical troubleshooting  
+- Coordinated regular progress updates with the instructor and ensured the design stayed aligned with competition requirements
+- https://www.youtube.com/watch?v=fhy48U5torM
+  
+
+---
+
+### 🔥 Wildfire Response System — UBC (Jan 2024)  
+**Team Captain**
+
+- Led a 6-person team building a wildfire-mitigation concept that integrates fire retardant into residential sprinkler systems triggered by a temperature sensor  
+- Contributed hands-on by designing mechanical components in SolidWorks and programming the Arduino-based temperature sensing workflow  
+- Planned the project timeline, assigned tasks, and organized weekly check-ins to maintain steady progress  
+- Directed and produced a short demo video to communicate the system’s design and real-world use case
+- https://www.youtube.com/watch?v=2M2wOQ82V_I
+
+
+---
+
 
 
 
