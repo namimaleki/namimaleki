@@ -39,7 +39,7 @@ I'm particularly fascinated by robotics, machine learning, physics, and game the
   overfitting issues through validation analysis
 ---
 
-### 🤖 Real-Time-Embedded-Control-Platform (https://github.com/namimaleki/Real-Time-Embedded-Control-Platform)
+### 🤖 [Real-Time-Embedded-Control-Platform](https://github.com/namimaleki/Real-Time-Embedded-Control-Platform)
 
 - Architected and implemented complete robotics-style firmware achieving <50µs timing 
   jitter at 200Hz control frequency through FreeRTOS deterministic scheduling—performance 
