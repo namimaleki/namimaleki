@@ -62,7 +62,7 @@ I'm particularly fascinated by robotics, machine learning, physics, and game the
 
 - Added essential system call functionality to support real user programs, including file I/O (open/read/write/close/lseek/dup2/chdir/getcwd) and process management (fork/execv/waitpid/getpid/exit)
 
-Built a custom virtual memory system to replace DUMBVM, handling TLB faults and page-level memory management, and supporting dynamic heap growth via sbrk so user programs can allocate memory at runtime
+- Built a custom virtual memory system to replace DUMBVM, handling TLB faults and page-level memory management, and supporting dynamic heap growth via sbrk so user programs can allocate memory at runtime
 
 ---
 
