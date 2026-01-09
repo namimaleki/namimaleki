@@ -66,7 +66,7 @@ I'm particularly fascinated by robotics, machine learning, physics, and game the
 
 ---
 
-### ⚙️ [Simple RISC Machine (SRM) Processor](https://github.com/yourusername/SimpleRISC)
+### ⚙️ [Simple RISC Machine](https://github.com/yourusername/SimpleRISC)
 A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
 
 - Planned and implemented a 16-bit RISC processor in Verilog, beginning with block diagrams and cycle-level timing plans to design a modular datapath (ALU, register file, shifter, multiplexers) for arithmetic and logic execution
@@ -77,7 +77,7 @@ A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
 
 ---
 
-### 🖥️ UNIX Shell (C) — UBC (March 2025)
+### 🖥️ UNIX Shell 
 A simplified **Unix-style shell** focused on process management and job control.
 
 - Built a functional shell supporting foreground/background execution using `fork`, `execvp`, and `waitpid`  
@@ -86,7 +86,7 @@ A simplified **Unix-style shell** focused on process management and job control.
 
 ---
 
-### 🧠 Virtual Memory System Emulator (C) — UBC (February 2025)
+### 🧠 Virtual Memory System Emulator
 A simplified **virtual memory simulator** modeling real OS memory translation and paging behavior.
 
 - Implemented two-level page tables with address translation and permission enforcement  
@@ -95,7 +95,7 @@ A simplified **virtual memory simulator** modeling real OS memory translation an
 
 ---
 
-### 🧱 Custom Memory Allocator (C) — UBC (January 2025)
+### 🧱 Custom Memory Allocator 
 A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `malloc/free/realloc`.
 
 - Implemented `malloc()`, `free()`, and `realloc()` with realistic heap metadata and allocation behavior  
@@ -103,7 +103,7 @@ A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `
 - Built a heap consistency checker + debugging utilities to detect header corruption, overlapping blocks, and alignment issues  
 
 ---
-### 📚 Stud-Bud — UBC (Sep 2024 – Dec 2024)  
+### 📚 Stud-Bud
 **Project Manager**
 
 - Led a 5-person team building a productivity app to help university students plan schedules and manage tasks more effectively  
