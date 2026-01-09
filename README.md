@@ -23,7 +23,8 @@ I'm particularly fascinated by robotics, machine learning, physics, and game the
 
 </div>
 
-### 🧠 [DeepChessEval](https://github.com/yourusername/DeepChessEval)
+### 🧠 [DeepChessEval](https://github.com/namimaleki/DeepChess.git)
+
 
 
 - Built a convolutional neural network to evaluate chess positions, achieving 
