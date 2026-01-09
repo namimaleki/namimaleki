@@ -134,7 +134,7 @@ An image-processing mini-project where I built an `ImageTransformer` toolkit and
 
 ---
 
-### 🚢 Submarine Design — UBC (Jan 2024 – Apr 2024)  
+### 🚢 Submarine Design 
 **Team Captain**
 
 - Led a 6-person team to design a fully modeled submarine in SolidWorks, earning **2nd place out of 70+ teams**  
@@ -146,7 +146,7 @@ An image-processing mini-project where I built an `ImageTransformer` toolkit and
 
 ---
 
-### 🔥 Wildfire Response System — UBC (Jan 2024)  
+### 🔥 Wildfire Response System   
 **Team Captain**
 
 - Led a 6-person team building a wildfire-mitigation concept that integrates fire retardant into residential sprinkler systems triggered by a temperature sensor  
