@@ -87,7 +87,7 @@ A simplified **Unix-style shell** focused on process management and job control.
 
 ---
 
-### 🧠 Virtual Memory System Emulator
+### 🧠 [Virtual Memory System Emulator](https://github.com/namimaleki/Virtual-Memory-System)
 A simplified **virtual memory simulator** modeling real OS memory translation and paging behavior.
 
 - Implemented two-level page tables with address translation and permission enforcement  
