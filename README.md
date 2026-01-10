@@ -95,6 +95,7 @@ A simplified **virtual memory simulator** modeling real OS memory translation an
 - Extended the system with an accessed-bit eviction strategy that favors untouched pages for better efficiency  
 
 ---
+> **Note:** Code will be provided upon request for the following projects.
 
 ### 🧱 Custom Memory Allocator 
 A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `malloc/free/realloc`.
