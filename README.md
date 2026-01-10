@@ -78,7 +78,7 @@ A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
 
 ---
 
-### 🖥️ UNIX Shell 
+### 🖥️ [UNIX Shell](https://github.com/namimaleki/Unix-Shell)
 A simplified **Unix-style shell** focused on process management and job control.
 
 - Built a functional shell supporting foreground/background execution using `fork`, `execvp`, and `waitpid`  
