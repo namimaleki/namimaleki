@@ -163,11 +163,10 @@ An image-processing mini-project where I built an `ImageTransformer` toolkit and
 
 
 
-### 🤖 [Panorama Telemetry System](https://github.com/namimaleki/Panorama)
+### 🤖 Panorama Telemetry System
 An **ESP32-based telemetry platform** for real-time sensor data acquisition.
 
 - Implemented a C++ **DataBuffer class** for efficient data logging and JSON serialization  
-- Built wireless data transmission over **Wi-Fi (ESP-IDF)** with live dashboard integration  
 - Designed a modular backend for multiple sensor nodes (IMU, temperature, GPS)  
 
 ---
