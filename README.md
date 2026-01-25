@@ -55,7 +55,7 @@ I'm particularly fascinated by robotics, machine learning, physics, and game the
 
 ---
 
-### 🧠 [OS/161 Kernel (CPEN 331)](https://github.com/namimaleki/OS161)
+### 🧠 [OS/161 Kernel](https://github.com/namimaleki/OS161)
 
 - A Unix-like operating system kernel built by extending OS/161 with real synchronization, system calls, and virtual memory.
 
