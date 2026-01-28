@@ -116,8 +116,8 @@ A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `
 --- 
 
 
-### 🌐 Multi-Client Server 
-A **multi-client server** designed for concurrent connections, fault tolerance, and secure communication.
+### 🌐 [Multi-Client Server](https://cpen221-ubc.notion.site/Message-Queues-Pub-Sub-with-Twitter-c5965b28ed01482aad44dbaadac19b77) 
+A **multi-client server** designed for concurrent connections, fault tolerance, and secure communication. 
 
 - Built a server that supports multiple simultaneous clients, enabling concurrent requests and responses without blocking  
 - Implemented dual-server routing / failover so clients can connect to either server and continue operating if one server goes offline  
