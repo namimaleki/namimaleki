@@ -100,11 +100,9 @@ A simplified **virtual memory simulator** modeling real OS memory translation an
 ### Baccarat FPGA Datapath + FSM 
 A SystemVerilog datapath + controller implementing the Baccarat game flow on the DE1-SoC FPGA.
 
-Designed and implemented a hierarchical SystemVerilog datapath + FSM controller to execute the full deal/score sequence (reg-based card storage, scorehand compute, and winner LEDs) on the DE1-SoC
-
-Built self-checking ModelSim testbenches with assertions and exhaustive corner-case coverage for state machine/datapath logic, validating correct state transitions and hand scoring across draw-rule paths
-
-Ran RTL + post-synthesis netlist simulation in Quartus/ModelSim to verify synthesizable behavior and catch mismatches early, improving correctness before FPGA deployment
+- Designed and implemented a hierarchical SystemVerilog datapath + FSM controller to execute the full deal/score sequence (reg-based card storage, scorehand compute, and winner LEDs) on the DE1-SoC
+- Built self-checking ModelSim testbenches with assertions and exhaustive corner-case coverage for state machine/datapath logic, validating correct state transitions and hand scoring across draw-rule paths
+- Ran RTL + post-synthesis netlist simulation in Quartus/ModelSim to verify synthesizable behavior and catch mismatches early, improving correctness before FPGA deployment
 
 ### Custom Memory Allocator 
 A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `malloc/free/realloc`.
