@@ -23,7 +23,7 @@ I'm particularly fascinated by robotics, machine learning, physics, game theory,
 
 </div>
 
-### 🧠 [DeepChessEval](https://github.com/namimaleki/DeepChess.git)
+### [DeepChessEval](https://github.com/namimaleki/DeepChess.git)
 
 
 
@@ -39,7 +39,7 @@ I'm particularly fascinated by robotics, machine learning, physics, game theory,
   overfitting issues through validation analysis
 ---
 
-### 🤖 [Real-Time-Embedded-Control-Platform](https://github.com/namimaleki/Real-Time-Embedded-Control-Platform)
+### [Real-Time-Embedded-Control-Platform](https://github.com/namimaleki/Real-Time-Embedded-Control-Platform)
 
 - Architected and implemented complete robotics-style firmware achieving <50µs timing 
   jitter at 200Hz control frequency through FreeRTOS deterministic scheduling—performance 
@@ -55,7 +55,7 @@ I'm particularly fascinated by robotics, machine learning, physics, game theory,
 
 ---
 
-### 🧠 [OS/161 Kernel](https://github.com/namimaleki/OS161)
+### [OS/161 Kernel](https://github.com/namimaleki/OS161)
 
 - A Unix-like operating system kernel built by extending OS/161 with real synchronization, system calls, and virtual memory.
 
@@ -67,7 +67,7 @@ I'm particularly fascinated by robotics, machine learning, physics, game theory,
 
 ---
 
-### ⚙️ [Simple RISC Machine](https://github.com/namimaleki/Simple-RISC-Machine)
+### [Simple RISC Machine](https://github.com/namimaleki/Simple-RISC-Machine)
 A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
 
 - Planned and implemented a 16-bit RISC processor in Verilog, beginning with block diagrams and cycle-level timing plans to design a modular datapath (ALU, register file, shifter, multiplexers) for arithmetic and logic execution
@@ -78,7 +78,7 @@ A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
 
 ---
 
-### 🖥️ [UNIX Shell](https://github.com/namimaleki/Unix-Shell)
+### [UNIX Shell](https://github.com/namimaleki/Unix-Shell)
 A simplified **Unix-style shell** focused on process management and job control.
 
 - Built a functional shell supporting foreground/background execution using `fork`, `execvp`, and `waitpid`  
@@ -87,7 +87,7 @@ A simplified **Unix-style shell** focused on process management and job control.
 
 ---
 
-### 🧠 [Virtual Memory System Emulator](https://github.com/namimaleki/Virtual-Memory-System)
+### [Virtual Memory System Emulator](https://github.com/namimaleki/Virtual-Memory-System)
 A simplified **virtual memory simulator** modeling real OS memory translation and paging behavior.
 
 - Implemented two-level page tables with address translation and permission enforcement  
@@ -97,7 +97,16 @@ A simplified **virtual memory simulator** modeling real OS memory translation an
 ---
 > **Note:** Code will be provided upon request for the following projects.
 
-### 🧱 Custom Memory Allocator 
+### Baccarat FPGA Datapath + FSM 
+A SystemVerilog datapath + controller implementing the Baccarat game flow on the DE1-SoC FPGA.
+
+Designed and implemented a hierarchical SystemVerilog datapath + FSM controller to execute the full deal/score sequence (reg-based card storage, scorehand compute, and winner LEDs) on the DE1-SoC
+
+Built self-checking ModelSim testbenches with assertions and exhaustive corner-case coverage for state machine/datapath logic, validating correct state transitions and hand scoring across draw-rule paths
+
+Ran RTL + post-synthesis netlist simulation in Quartus/ModelSim to verify synthesizable behavior and catch mismatches early, improving correctness before FPGA deployment
+
+### Custom Memory Allocator 
 A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `malloc/free/realloc`.
 
 - Implemented `malloc()`, `free()`, and `realloc()` with realistic heap metadata and allocation behavior  
@@ -105,7 +114,7 @@ A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `
 - Built a heap consistency checker + debugging utilities to detect header corruption, overlapping blocks, and alignment issues  
 
 ---
-### 📚 Stud-Bud
+### Stud-Bud
 **Project Manager**
 
 - Led a 5-person team building a productivity app to help university students plan schedules and manage tasks more effectively  
@@ -116,7 +125,7 @@ A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `
 --- 
 
 
-### 🌐 [Multi-Client Server](https://cpen221-ubc.notion.site/Message-Queues-Pub-Sub-with-Twitter-c5965b28ed01482aad44dbaadac19b77) 
+### [Multi-Client Server](https://cpen221-ubc.notion.site/Message-Queues-Pub-Sub-with-Twitter-c5965b28ed01482aad44dbaadac19b77) 
 A **multi-client server** designed for concurrent connections, fault tolerance, and secure communication. 
 
 - Built a server that supports multiple simultaneous clients, enabling concurrent requests and responses without blocking  
@@ -127,7 +136,7 @@ A **multi-client server** designed for concurrent connections, fault tolerance, 
 
 
 
-### 🖼️ Image Processing  
+### Image Processing  
 An image-processing mini-project where I built an `ImageTransformer` toolkit and implemented classic computer vision–style operations on pixel grids.
 
 - Implemented a suite of image transformations from scratch (mirror, negative, posterize, denoise/median filter, weathering/min filter, and block-painting/mean filter) by directly manipulating RGB channels at the pixel level  
@@ -136,7 +145,7 @@ An image-processing mini-project where I built an `ImageTransformer` toolkit and
 
 ---
 
-### 🚢 Submarine Design 
+### Submarine Design 
 **Team Captain**
 
 - Led a 6-person team to design a fully modeled submarine in SolidWorks, earning **2nd place out of 70+ teams**  
@@ -148,7 +157,7 @@ An image-processing mini-project where I built an `ImageTransformer` toolkit and
 
 ---
 
-### 🔥 Wildfire Response System   
+### Wildfire Response System   
 **Team Captain**
 
 - Led a 6-person team building a wildfire-mitigation concept that integrates fire retardant into residential sprinkler systems triggered by a temperature sensor  
@@ -163,7 +172,7 @@ An image-processing mini-project where I built an `ImageTransformer` toolkit and
 
 
 
-### 🤖 Panorama Telemetry System
+### Panorama Telemetry System
 An **ESP32-based telemetry platform** for real-time sensor data acquisition.
 
 - Implemented a C++ **DataBuffer class** for efficient data logging and JSON serialization  
