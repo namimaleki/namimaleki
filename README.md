@@ -104,6 +104,7 @@ A SystemVerilog datapath + controller implementing the Baccarat game flow on the
 - Built self-checking ModelSim testbenches with assertions and exhaustive corner-case coverage for state machine/datapath logic, validating correct state transitions and hand scoring across draw-rule paths
 - Ran RTL + post-synthesis netlist simulation in Quartus/ModelSim to verify synthesizable behavior and catch mismatches early, improving correctness before FPGA deployment
 
+---
 ### Custom Memory Allocator 
 A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `malloc/free/realloc`.
 
