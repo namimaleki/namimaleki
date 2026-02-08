@@ -57,14 +57,14 @@ A robust, scalable **end-to-end telemetry platform** that collects, transmits, a
 - Designed complete end-to-end ML pipeline from scratch: automated PGN parsing, Stockfish engine integration, custom tensor encoding (12×8×8), and PyTorch training with validation monitoring
 - First ML project - learned full development cycle including data collection, preprocessing, model architecture design, training optimization, and debugging overfitting issues through validation analysis
 
----
+
 
 ### [Real-Time-Embedded-Control-Platform](https://github.com/namimaleki/Real-Time-Embedded-Control-Platform)
 - Architected and implemented complete robotics-style firmware achieving <50µs timing jitter at 200Hz control frequency through FreeRTOS deterministic scheduling—performance matching commercial robotics platforms
 - Engineered hardware drivers (I²C IMU sensor, PWM actuator control) and thread-safe inter-task communication pipeline (FreeRTOS queues/mutexes) with comprehensive error handling and safety systems (emergency stop, deadline detection, SAFE mode)
 - Integrated PID control algorithm creating closed-loop sensor-to-actuator system, demonstrating professional embedded development practices directly applicable to autonomous robotics systems
 
----
+
 
 ### [OS/161 Kernel](https://github.com/namimaleki/OS161)
 - A Unix-like operating system kernel built by extending OS/161 with real synchronization, system calls, and virtual memory.
@@ -72,7 +72,6 @@ A robust, scalable **end-to-end telemetry platform** that collects, transmits, a
 - Added essential system call functionality to support real user programs, including file I/O (open/read/write/close/lseek/dup2/chdir/getcwd) and process management (fork/execv/waitpid/getpid/exit)
 - Built a custom virtual memory system to replace DUMBVM, handling TLB faults and page-level memory management, and supporting dynamic heap growth via sbrk so user programs can allocate memory at runtime
 
----
 
 ### [Simple RISC Machine](https://github.com/namimaleki/Simple-RISC-Machine)
 A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
@@ -82,7 +81,7 @@ A **custom 16-bit processor** designed and simulated on the DE1-SoC FPGA.
 - Used ModelSim to simulate and visualize processor signal waveforms, verifying correct instruction    execution and timing before synthesis and deployment on the DE1-SoC FPGA using Quartus
 - Developed SystemVerilog test benches to validate branching, load/store, and memory-mapped I/O operations
 
----
+
 
 ### [UNIX Shell](https://github.com/namimaleki/Unix-Shell)
 A simplified **Unix-style shell** focused on process management and job control.
@@ -91,7 +90,7 @@ A simplified **Unix-style shell** focused on process management and job control.
 - Implemented signal handling to support suspending, resuming, and terminating jobs reliably
 - Designed job tracking structures and built commands like `jobs`, `fg`, `bg`, and `nuke` to manage running processes cleanly
 
----
+
 
 ### [Virtual Memory System Emulator](https://github.com/namimaleki/Virtual-Memory-System)
 A simplified **virtual memory simulator** modeling real OS memory translation and paging behavior.
@@ -100,7 +99,7 @@ A simplified **virtual memory simulator** modeling real OS memory translation an
 - Added swapping + eviction policies to manage limited physical memory under pressure
 - Extended the system with an accessed-bit eviction strategy that favors untouched pages for better efficiency
 
----
+
 
 > **Note:** Code will be provided upon request for the following projects.
 
@@ -111,7 +110,7 @@ A SystemVerilog datapath + controller implementing the Baccarat game flow on the
 - Built self-checking ModelSim testbenches with assertions and exhaustive corner-case coverage for state machine/datapath logic, validating correct state transitions and hand scoring across draw-rule paths
 - Ran RTL + post-synthesis netlist simulation in Quartus/ModelSim to verify synthesizable behavior and catch mismatches early, improving correctness before FPGA deployment
 
----
+
 
 ### Custom Memory Allocator
 A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `malloc/free/realloc`.
@@ -120,7 +119,7 @@ A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `
 - Added block coalescing and in-place reallocation to reduce fragmentation and improve performance
 - Built a heap consistency checker + debugging utilities to detect header corruption, overlapping blocks, and alignment issues
 
----
+
 
 ### Stud-Bud — Project Manager
 - Led a 5-person team building a productivity app to help university students plan schedules and manage tasks more effectively
@@ -128,7 +127,7 @@ A lightweight, from-scratch **heap allocator** mirroring the core ideas behind `
 - Integrated the scheduling engine with the app’s core workflow, ensuring it worked smoothly with the GUI and client–server structure
 - Contributed to networking + UI development while managing project planning, version control, and team coordination
 
----
+
 
 ### [Multi-Client Server](https://cpen221-ubc.notion.site/Message-Queues-Pub-Sub-with-Twitter-c5965b28ed01482aad44dbaadac19b77)
 A **multi-client server** designed for concurrent connections, fault tolerance, and secure communication.
@@ -137,7 +136,7 @@ A **multi-client server** designed for concurrent connections, fault tolerance, 
 - Implemented dual-server routing / failover so clients can connect to either server and continue operating if one server goes offline
 - Secured user data by hashing + salting passwords and encrypting all incoming/outgoing messages using AES
 
----
+
 
 ### Image Processing
 An image-processing mini-project where I built an `ImageTransformer` toolkit and implemented classic computer vision–style operations on pixel grids.
@@ -146,7 +145,7 @@ An image-processing mini-project where I built an `ImageTransformer` toolkit and
 - Built image comparison utilities using grayscale + cosine similarity, including a “best match” ranking function to sort a list of images by similarity to a target image
 - Implemented a green-screen pipeline: detected the largest connected region of an exact target color, computed its bounding rectangle, and overlaid/tiled a background image onto that region; supported the project with method specs and robust unit tests/code coverage
 
----
+
 
 ### Submarine Design — Team Captain
 - Led a 6-person team to design a fully modeled submarine in SolidWorks, earning **2nd place out of 70+ teams**
@@ -155,7 +154,7 @@ An image-processing mini-project where I built an `ImageTransformer` toolkit and
 - Coordinated regular progress updates with the instructor and ensured the design stayed aligned with competition requirements
 - https://www.youtube.com/watch?v=fhy48U5torM
 
----
+
 
 ### Wildfire Response System — Team Captain
 - Led a 6-person team building a wildfire-mitigation concept that integrates fire retardant into residential sprinkler systems triggered by a temperature sensor
