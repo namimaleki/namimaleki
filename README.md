@@ -25,10 +25,6 @@ I'm particularly fascinated by robotics, machine learning, physics, game theory,
 </div>
 
 ### 🤖 UBC Open Robotics
-**Sep 2025 – Dec 2025:** Panorama Telemetry System (Software member)
-**Dec 2025 – Present:** Haptic Knob (Firmware member)
-
----
 
 ### Panorama Telemetry System (ESP32) — Software Member *(Sep 2025 – Dec 2025)*
 A robust, scalable **end-to-end telemetry platform** that collects, transmits, and displays sensor data, command information, and robot state through a custom GUI.
