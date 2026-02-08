@@ -26,14 +26,6 @@ I'm particularly fascinated by robotics, machine learning, physics, game theory,
 
 ### 🤖 UBC Open Robotics
 
-### Panorama Telemetry System (ESP32) — Software Member *(Sep 2025 – Dec 2025)*
-A robust, scalable **end-to-end telemetry platform** that collects, transmits, and displays sensor data, command information, and robot state through a custom GUI.
-
-- Implemented a C++ **DataBuffer** module for efficient sensor/state logging and serialization to support reliable telemetry streaming
-- Contributed to the end-to-end telemetry workflow (data collection → transmission → GUI visualization) designed to scale across future robotics projects and new sensor types
-
----
-
 ### Haptic Knob — Firmware Member *(Dec 2025 – Present)*
 A 1-DOF rotational haptic interface that lets users **physically feel** electrical circuits (R, L, C, RLC, and diodes) by converting circuit equations into real-time force feedback through a motorized knob.
 
@@ -43,6 +35,14 @@ A 1-DOF rotational haptic interface that lets users **physically feel** electric
 - Integrating and validating low-level peripherals and drivers (encoder feedback, current sensing via external ADC, SPI bus configuration, motor driver control) and ensuring stable closed-loop behavior under real hardware constraints (sensor scaling, noise, saturation, timing jitter)
 - Building safety-critical behavior around the control loop, including watchdog/heartbeat monitoring, fault detection and latching (invalid samples, missed deadlines, unsafe commands), and a safe-state motor disable path to protect users and hardware
 - Collaborating closely with the hardware team to bring up custom PCB + motor/encoder/current-sense hardware, debug signal integrity and protocol issues, and maintain firmware-hardware compatibility through iterative testing and tuning
+
+---
+
+### Panorama Telemetry System (ESP32) — Software Member *(Sep 2025 – Dec 2025)*
+A robust, scalable **end-to-end telemetry platform** that collects, transmits, and displays sensor data, command information, and robot state through a custom GUI.
+
+- Implemented a C++ **DataBuffer** module for efficient sensor/state logging and serialization to support reliable telemetry streaming
+- Contributed to the end-to-end telemetry workflow (data collection → transmission → GUI visualization) designed to scale across future robotics projects and new sensor types
 
 ---
 
