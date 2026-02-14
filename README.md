@@ -9,7 +9,7 @@
 ### 🎓 Education
 Computer Engineering and Mathematics
 University of British Columbia
-Expected Graduation: 2027
+Expected Graduation: 2028
 
 ### 💡 Interests
 I'm an ambitious and driven student who thrives on intellectual challenges and solving complex problems. My passion for understanding how things work at a fundamental level led me to pursue both computer engineering and mathematics. I'm constantly pushing myself to explore difficult concepts and expand my knowledge across multiple disciplines.
