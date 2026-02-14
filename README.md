@@ -51,6 +51,7 @@ A robust, scalable **end-to-end telemetry platform** that collects, transmits, a
 ## Projects
 
 </div>
+
 ### ROS2 Autonomous Racing (F1TENTH) (Code available upon request)
 A team-built ROS2 autonomous racing stack running on **Ubuntu** on an **NVIDIA Jetson**, combining LiDAR geometry and vision to achieve reliable autonomous driving with safety-first command arbitration.
 
