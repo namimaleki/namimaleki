@@ -51,6 +51,14 @@ A robust, scalable **end-to-end telemetry platform** that collects, transmits, a
 ## Projects
 
 </div>
+### ROS2 Autonomous Racing (F1TENTH) (Code available upon request)
+A team-built ROS2 autonomous racing stack running on **Ubuntu** on an **NVIDIA Jetson**, combining LiDAR geometry and vision to achieve reliable autonomous driving with safety-first command arbitration.
+
+- Worked in a **6-person team** to design and integrate a modular **Python ROS2** autonomy pipeline (perception → planning → control), coordinating interfaces across nodes and topics
+- Implemented and tuned LiDAR-based navigation behaviors including **wall-following PID** and **gap-following (open-path)** driving using scan preprocessing and geometric reasoning
+- Contributed to a safety-critical **SafetyNode** using **time-to-collision (TTC)** logic for automatic emergency braking, designed to override nominal driving when collision risk is detected
+- Helped build a priority-based **DriveMux** multiplexer to arbitrate commands (safety > wall-follow > gap-follow) and publish the highest-priority recent command to `/drive`
+- Integrated **OpenCV** vision pipelines (camera-based color/feature detection + landmark/lap logic) and supported on-car testing, debugging, and parameter tuning on real hardware
 
 ### [DeepChessEval](https://github.com/namimaleki/DeepChess.git)
 - Built a convolutional neural network to evaluate chess positions, achieving ±0.23 pawn accuracy on 100K+ unseen positions (validation MSE: 0.048)
