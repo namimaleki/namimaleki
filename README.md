@@ -32,9 +32,9 @@ A 1-DOF rotational haptic interface that lets users **physically feel** electric
 - Developing **ESP32 C/C++ firmware** for a deterministic real-time haptic loop that reads knob motion (angle/velocity/acceleration), computes a target response from circuit models, and commands motor torque so users can feel behaviors like damping, oscillation, and diode-like one-way resistance
 - Implementing the electrical-to-mechanical mapping in code: **voltage → torque**, **current → angular velocity**, **charge → angular displacement**, and **dI/dt → angular acceleration**, enabling resistor/capacitor/inductor/RLC/diode modes with tunable parameters (R, L, C, diode threshold, torque/current limits)
 - Implementing a Kalman filter for real-time state estimation to produce low noise angle and angular velocity from encoder measurements, reducing noise effects and improving control stability
+- Designing a PID current controller that minimizes error between desired (model) current and measured current, outputting PWM through a 3-phase BLDC driver to achieve accurate torque control
 - Integrating and validating low-level peripherals and drivers (encoder feedback, current sensing via external ADC, SPI bus configuration, motor driver control) and ensuring stable closed-loop behavior under real hardware constraints (sensor scaling, noise, saturation, timing jitter)
 - Building safety-critical behavior around the control loop, including watchdog/heartbeat monitoring, fault detection and latching (invalid samples, missed deadlines, unsafe commands), and a safe-state motor disable path to protect users and hardware
-- Collaborating closely with the hardware team to bring up custom PCB + motor/encoder/current-sense hardware, debug signal integrity and protocol issues, and maintain firmware-hardware compatibility through iterative testing and tuning
 
 
 
